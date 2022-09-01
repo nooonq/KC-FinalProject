@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct SplashScreen<Content: View, Title: View, Logo: View>: View {
     
     var content : Content
@@ -35,7 +36,7 @@ struct SplashScreen<Content: View, Title: View, Logo: View>: View {
             
             ZStack{
                 
-                Color.purple
+                Color.Darkpurple
                     .ignoresSafeArea()
         
                 

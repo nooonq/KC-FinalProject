@@ -12,6 +12,12 @@
 		05A5C30428C033710035A626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A5C30328C033710035A626 /* Assets.xcassets */; };
 		05A5C30728C033710035A626 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A5C30628C033710035A626 /* Preview Assets.xcassets */; };
 		05A5C30E28C033E40035A626 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A5C30D28C033E40035A626 /* SplashScreen.swift */; };
+		05A5C31528C0444C0035A626 /* GraphikArabic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05A5C30F28C0444B0035A626 /* GraphikArabic-Bold.otf */; };
+		05A5C31628C0444C0035A626 /* GraphikArabic-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05A5C31028C0444B0035A626 /* GraphikArabic-Medium.otf */; };
+		05A5C31728C0444C0035A626 /* GraphikArabic-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05A5C31128C0444B0035A626 /* GraphikArabic-Semibold.otf */; };
+		05A5C31828C0444C0035A626 /* GraphikArabic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05A5C31228C0444B0035A626 /* GraphikArabic-Regular.otf */; };
+		05A5C31928C0444C0035A626 /* GraphikArabic-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05A5C31328C0444B0035A626 /* GraphikArabic-Black.otf */; };
+		05A5C31A28C0444C0035A626 /* GraphikArabic-Super.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05A5C31428C0444B0035A626 /* GraphikArabic-Super.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,13 @@
 		05A5C30328C033710035A626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A5C30628C033710035A626 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05A5C30D28C033E40035A626 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		05A5C30F28C0444B0035A626 /* GraphikArabic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikArabic-Bold.otf"; sourceTree = "<group>"; };
+		05A5C31028C0444B0035A626 /* GraphikArabic-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikArabic-Medium.otf"; sourceTree = "<group>"; };
+		05A5C31128C0444B0035A626 /* GraphikArabic-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikArabic-Semibold.otf"; sourceTree = "<group>"; };
+		05A5C31228C0444B0035A626 /* GraphikArabic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikArabic-Regular.otf"; sourceTree = "<group>"; };
+		05A5C31328C0444B0035A626 /* GraphikArabic-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikArabic-Black.otf"; sourceTree = "<group>"; };
+		05A5C31428C0444B0035A626 /* GraphikArabic-Super.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GraphikArabic-Super.otf"; sourceTree = "<group>"; };
+		05A5C31C28C044800035A626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,7 @@
 		05A5C2FE28C0336C0035A626 /* DAWIR */ = {
 			isa = PBXGroup;
 			children = (
+				05A5C31C28C044800035A626 /* Info.plist */,
 				05A5C2FF28C0336C0035A626 /* DAWIRApp.swift */,
 				05A5C30128C0336C0035A626 /* ContentView.swift */,
 				05A5C30D28C033E40035A626 /* SplashScreen.swift */,
@@ -66,8 +80,22 @@
 			isa = PBXGroup;
 			children = (
 				05A5C30628C033710035A626 /* Preview Assets.xcassets */,
+				05A5C31B28C044550035A626 /* FONTS */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05A5C31B28C044550035A626 /* FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				05A5C31428C0444B0035A626 /* GraphikArabic-Super.otf */,
+				05A5C31328C0444B0035A626 /* GraphikArabic-Black.otf */,
+				05A5C30F28C0444B0035A626 /* GraphikArabic-Bold.otf */,
+				05A5C31128C0444B0035A626 /* GraphikArabic-Semibold.otf */,
+				05A5C31028C0444B0035A626 /* GraphikArabic-Medium.otf */,
+				05A5C31228C0444B0035A626 /* GraphikArabic-Regular.otf */,
+			);
+			path = FONTS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +156,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A5C31528C0444C0035A626 /* GraphikArabic-Bold.otf in Resources */,
+				05A5C31928C0444C0035A626 /* GraphikArabic-Black.otf in Resources */,
+				05A5C31A28C0444C0035A626 /* GraphikArabic-Super.otf in Resources */,
+				05A5C31628C0444C0035A626 /* GraphikArabic-Medium.otf in Resources */,
 				05A5C30728C033710035A626 /* Preview Assets.xcassets in Resources */,
+				05A5C31828C0444C0035A626 /* GraphikArabic-Regular.otf in Resources */,
+				05A5C31728C0444C0035A626 /* GraphikArabic-Semibold.otf in Resources */,
 				05A5C30428C033710035A626 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +307,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DAWIR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAWIR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +336,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DAWIR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAWIR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
