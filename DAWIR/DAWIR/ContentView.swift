@@ -14,33 +14,45 @@ extension Color{
     static let Lightpurple = Color(red: 176/255, green: 163/255, blue: 240/255)
     static let Darkorange = Color(red: 235/255 , green: 78/255, blue: 26/255)
     static let Lightorange = Color(red: 255/255, green: 115/255, blue: 69/255)
-    
+    static let Notwhite = Color(red: 246 / 255, green: 255 / 255, blue: 245 / 255)
     
 }
 
 
 struct ContentView: View {
+    
+    
     var body: some View {
         
-        SplashScreen(imagesize: CGSize(width: 120, height: 120)) {
+        ZStack {
+            Color.Notwhite
+                .ignoresSafeArea()
             
-        } titleView: {
-            
-            //Text("دوّر")
-               // .font(Font.custom("GraphikArabic-Black", size: 35))
-                //.foregroundColor(.white)
-            Image("d1")
-                .resizable()
-                .frame(width: 120, height: 50, alignment: .center)
-                .scaleEffect()
-        } logoView: {
-            
-            Image(systemName: "magnifyingglass")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .foregroundColor(.Lightorange)
+            VStack {
+                SplashScreen(imagesize: CGSize(width: 120, height: 120)) {
+                    
+                } titleView: {
+                    
+                    //Text("دوّر")
+                       // .font(Font.custom("GraphikArabic-Black", size: 35))
+                        //.foregroundColor(.white)
+                    Image("d1")
+                        .resizable()
+                        .frame(width: 120, height: 50, alignment: .center)
+                        .scaleEffect()
+                } logoView: {
+                    
+                    Image(systemName: "magnifyingglass")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .foregroundColor(.Lightorange)
+                        
+                        
+            }
                 
+               
                 
+            }
         }
 
         

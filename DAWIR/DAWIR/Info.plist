@@ -5,12 +5,15 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string></string>
-		<string>GraphikArabic-Black.otf</string>
-		<string>GraphikArabic-Semibold.otf</string>
-		<string>GraphikArabic-Bold.otf</string>
-		<string>GraphikArabic-Super.otf</string>
-		<string>GraphikArabic-Medium.otf</string>
-		<string>GraphikArabic-Regular.otf</string>
 	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>Darkpurple</string>
+		<key>UIImageName</key>
+		<string>Logo</string>
+		<key>UILaunchScreen</key>
+		<dict/>
+	</dict>
 </dict>
 </plist>

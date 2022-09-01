@@ -10,6 +10,8 @@ import SwiftUI
 
 struct SplashScreen<Content: View, Title: View, Logo: View>: View {
     
+    @State var searchText = ""
+    
     var content : Content
     var titleView : Title
     var logoView : Logo
@@ -78,6 +80,9 @@ struct SplashScreen<Content: View, Title: View, Logo: View>: View {
                 .zIndex(0)
             
             
+            
+            
+            
 }//vstack
         
         .frame(maxHeight: .infinity, alignment: .top)
@@ -96,7 +101,7 @@ struct SplashScreen<Content: View, Title: View, Logo: View>: View {
             }
         }
         
-        
+       
         
     }//body
     
